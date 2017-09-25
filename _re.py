@@ -1,7 +1,7 @@
 import re
 
 string_1 = "Earth is the third planet from the Sun"
-result_1 = re.match(r'\w+ \w+', string_1).group()
+result_1 = [match[1] for match in re.findall(r'(^| )(\w{2})', string_1)]
 print(result_1)
 
 string_2 = 'abc.test@gmail.com, xyz@test.in, test.first@analyticsvidhya.com, first.test@rest.biz'
