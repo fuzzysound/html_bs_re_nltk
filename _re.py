@@ -1,3 +1,5 @@
+# 정규표현식 문제 과제
+
 import re
 
 string_1 = "Earth is the third planet from the Sun"

@@ -1,3 +1,5 @@
+# parse하고자 하는 html 스크립트
+
 labinfo = str(
 '<html><head></head><body>' 
 '<tr class="odd views-row-first">' 
